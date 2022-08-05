@@ -86,10 +86,10 @@ interface OBSlotServiceInterface {
      * 營商帳號轉換為遊戲商帳號
      * @param string $op_code
      * @param array $vendor
-     * @param string $member_code
+     * @param string $player_name
      * @return mixed
      */
-    function accountToVendor(string $op_code, array $vendor, string $member_code);
+    function accountToVendor(string $op_code, array $vendor, string $player_name);
 
     /**
      * 遊戲商帳號轉換為營商帳號
