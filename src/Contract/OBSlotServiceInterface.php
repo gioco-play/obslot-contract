@@ -99,5 +99,4 @@ interface OBSlotServiceInterface {
      * @return mixed
      */
     function accountToOperator(string $op_code, array $vendor, string $vendor_account);
-
 }
